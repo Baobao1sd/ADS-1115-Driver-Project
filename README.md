@@ -35,6 +35,7 @@ We use a potentiometer 100kΩ for testing.
            _sudo rmmod ads1115_ioctl_
      * After that, use the following command to check whether ads1115 is listed among the loaded modules:
           _lsmod_
+     * Use the command cat /proc/devices to check the drivers that have been registered.
   # Reference
   https://how2electronics.com/how-to-use-ads1115-16-bit-adc-module-with-raspberry-pi/
 
